@@ -1,0 +1,18 @@
+
+nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: lightblue;
+}
+
+header {
+    background-color: #087E8B;
+}
+
+nav {
+    background-color: #373737;
+    color: #ffffff;
+}

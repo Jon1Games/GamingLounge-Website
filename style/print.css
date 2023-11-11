@@ -1,0 +1,12 @@
+
+@media print {
+    .noPrint {
+        display: none;
+    }
+}
+
+@media not print {
+    .onlyPrint {
+        display: none;
+    }
+}

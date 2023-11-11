@@ -1,0 +1,59 @@
+
+@layer nospec, layout, usebility, theme;
+
+@import url("style/desktop.css") layer(layout) screen and (1100px <= width);
+@import url("style/desktop_wide.css") layer(layout) screen and (1400px <= width);
+@import url("style/narrow.css") layer(layout) screen and (width < 800px);
+@import url("style/touch.css") layer(usebility) (pointer: coarse) or (pointer: none);
+@import url("style/print.css");
+
+@layer nospec {
+    body {
+        margin: 0;
+        font-family: Arial;
+    }
+
+    header {
+        width: 100%;
+        padding-top: 0.5%;
+        padding-bottom: 0.5%;
+        text-align: center;
+    }
+
+    nav {
+        width: 100%;
+        padding-top: 0.1%;
+        padding-bottom: 0.1%;
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+
+    nav li {
+        display: inline;
+        padding-right: 20px;
+    }
+
+    nav .nav-right {
+        float: right;
+    }
+
+    .titleBanner {
+        font-size: 2.5em;
+        letter-spacing: 1px;
+    }
+
+    .base {
+        margin:50px;
+        position: relative;
+        width: 90%;
+        left: 0%;
+    }
+
+    .content {
+    margin-left:20px;
+    }
+}

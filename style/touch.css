@@ -1,0 +1,6 @@
+
+@import url("narrow.css") (width < 1600px);
+
+nav li a {
+    font-size: 40px;
+}

@@ -1,0 +1,22 @@
+
+/* tryOneSideLast is not propably implementet only works with 2 childs */
+
+.tryOneSideLast {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.tryOneSideLast > * {
+    position: relative;
+    flex-grow: 0;
+    flex-basis: 70%;
+    order: 0;
+    flex-shrink: 20;
+}
+
+.tryOneSideLast > :nth-last-child(1) {
+    flex-basis: 30%;
+    order: 1;
+    flex-shrink: 1;
+}

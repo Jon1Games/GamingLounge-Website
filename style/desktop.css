@@ -1,0 +1,22 @@
+
+.tryOneSideFirst {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.tryOneSideFirst > * {
+    position: relative;
+    flex-grow: 0;
+    flex-basis: 80%;
+    order: 2;
+}
+
+.tryOneSideFirst > :nth-child(2) {
+    order: 0;
+}
+
+.tryOneSideFirst > :nth-child(1) {
+    flex-basis:0%;
+    order: 1;
+}

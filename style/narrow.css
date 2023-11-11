@@ -1,0 +1,21 @@
+
+nav {
+    width: 100%;
+    padding-top: 0.1%;
+    padding-bottom: 0.1%;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+nav li {
+    display: list-item;
+    padding-right: 20px;
+}
+
+nav .nav-right {
+    float: none;
+}
